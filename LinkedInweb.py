@@ -22,7 +22,7 @@ password_field = driver.find_element(By.ID, "password")
 
 # --- Enter credentials ---
 username_field.send_keys("chiragchandrashekar@gmail.com")
-password_field.send_keys("***********")
+password_field.send_keys("*****")
 
 # --- Click the Sign In button ---
 sign_in_button = driver.find_element(By.XPATH, "//button[@type='submit']")
